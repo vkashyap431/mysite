@@ -19,3 +19,5 @@ def results(request,question_id):
 	return HttpResponse(response % question_id)
 def vote(request, question_id):
 	return HttpResponse("you are voting on question %s. " % question_id)
+def dummy2(request):
+	pass
